@@ -1,0 +1,166 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\copilot-chat-app\\webapi\\CopilotChatWebApi.csproj": {}
+  },
+  "projects": {
+    "D:\\copilot-chat-app\\webapi\\CopilotChatWebApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\copilot-chat-app\\webapi\\CopilotChatWebApi.csproj",
+        "projectName": "CopilotChatWebApi",
+        "projectPath": "D:\\copilot-chat-app\\webapi\\CopilotChatWebApi.csproj",
+        "packagesPath": "C:\\Users\\bodonnell\\.nuget\\packages\\",
+        "outputPath": "D:\\copilot-chat-app\\webapi\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\bodonnell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Azure.Extensions.AspNetCore.Configuration.Secrets": {
+              "target": "Package",
+              "version": "[1.2.2, )"
+            },
+            "Microsoft.ApplicationInsights.AspNetCore": {
+              "target": "Package",
+              "version": "[2.21.0, )"
+            },
+            "Microsoft.Azure.Cosmos": {
+              "target": "Package",
+              "version": "[3.34.0, )"
+            },
+            "Microsoft.CodeAnalysis.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.4, )"
+            },
+            "Microsoft.CodeAnalysis.NetAnalyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.0-preview1.23165.1, )"
+            },
+            "Microsoft.Identity.Web": {
+              "target": "Package",
+              "version": "[2.11.1, )"
+            },
+            "Microsoft.SemanticKernel": {
+              "target": "Package",
+              "version": "[0.17.230711.7-preview, )"
+            },
+            "Microsoft.SemanticKernel.Connectors.AI.OpenAI": {
+              "target": "Package",
+              "version": "[0.17.230711.7-preview, )"
+            },
+            "Microsoft.SemanticKernel.Connectors.Memory.AzureCognitiveSearch": {
+              "target": "Package",
+              "version": "[0.17.230711.7-preview, )"
+            },
+            "Microsoft.SemanticKernel.Connectors.Memory.Qdrant": {
+              "target": "Package",
+              "version": "[0.17.230711.7-preview, )"
+            },
+            "Microsoft.SemanticKernel.Skills.MsGraph": {
+              "target": "Package",
+              "version": "[0.17.230711.7-preview, )"
+            },
+            "Microsoft.SemanticKernel.Skills.OpenAPI": {
+              "target": "Package",
+              "version": "[0.17.230711.7-preview, )"
+            },
+            "Microsoft.SemanticKernel.Skills.Web": {
+              "target": "Package",
+              "version": "[0.17.230711.7-preview, )"
+            },
+            "Microsoft.VisualStudio.Threading.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[17.6.40, )"
+            },
+            "PdfPig": {
+              "target": "Package",
+              "version": "[0.1.8, )"
+            },
+            "Roslynator.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "Roslynator.CodeAnalysis.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "Roslynator.Formatting.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
+            "Tesseract": {
+              "target": "Package",
+              "version": "[5.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
